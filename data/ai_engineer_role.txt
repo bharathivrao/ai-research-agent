@@ -1,0 +1,3 @@
+•	responsibilities of an AI engineer (from job posts, blogs, docs)
+•	required skills: Python, LLMs, RAG, vector DBs, Docker, cloud, etc.
+•	differences between AI engineer vs ML engineer vs data scientist

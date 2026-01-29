@@ -1,0 +1,3 @@
+•	basics of evaluating LLM outputs
+•	hallucinations, factuality, metrics
+•	prompt testing strategies

@@ -1,0 +1,10 @@
+AI Engineer salary samples (USD, base):
+- CompanyA: 185000
+- CompanyB: 210000
+- CompanyC: 195000
+- CompanyD: 225000
+- CompanyE: 205000
+
+Notes:
+- These are sample numbers for demo purposes.
+- Use these numbers when asked to compute average/min/max.

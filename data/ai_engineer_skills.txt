@@ -1,0 +1,1 @@
+•	Python, LLMs, RAG, vector DBs, cloud, Docker, CI/CD, agents, etc.

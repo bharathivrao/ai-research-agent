@@ -1,0 +1,4 @@
+•	what RAG is
+•	chunking strategies
+•	good retrieval vs bad retrieval
+•	when to use RAG vs fine-tuning

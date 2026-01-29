@@ -1,0 +1,3 @@
+•	what an “agent” is
+•	tools, memory, planning, reflection
+•	examples of agent workflows (planner → worker → verifier)
