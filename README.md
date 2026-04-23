@@ -64,13 +64,14 @@ ai-research-agent/
 └── README.md
 ```
 Tech Stack
+```
 	•	Python 3.12
 	•	OpenAI API (LLMs + embeddings)
 	•	ChromaDB (vector store)
 	•	Pydantic v2 (schema enforcement)
 	•	FastAPI (service layer)
 	•	Uvicorn (ASGI server)
-
+```
 Setup Instructions
 
 1️⃣ Clone & Create Virtual Environment
@@ -95,12 +96,12 @@ OPENAI_API_KEY=sk-xxxxxxxx
 Add .txt files to the data/ directory.
 
 Example:
-
+```
 AI Engineer salary samples:
 - CompanyA: 185000
 - CompanyB: 210000
 - CompanyC: 195000
-
+```
 These files are embedded and indexed automatically.
 
 ▶️ Run the Agent (CLI)
@@ -125,8 +126,9 @@ Example Request:
   "goal": "Research AI Engineer skills and compute average salary",
   "max_retries_per_step": 1
 }
-```
+
 Example Response
+```
 	•	Structured plan
 	•	Step-by-step execution (with tool used)
 	•	Evaluations & retries
@@ -134,8 +136,9 @@ Example Response
 	•	Token & timing metrics
 ```
 ⸻
-```
+
 📊 Metrics Collected
+```
 	•	Tokens per step (input / output / total)
 	•	Execution time per step
 	•	Total pipeline time
