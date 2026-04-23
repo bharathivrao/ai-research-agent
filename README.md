@@ -44,8 +44,8 @@ Final Research Report
 FastAPI Endpoint
 
 Project Structure
-
-ai-agent-week1/
+```
+ai-research-agent/
 │
 ├── planner.py        # Structured planner (chooses tools)
 ├── rag_chroma.py          # RAG layer (embeddings + Chroma)
@@ -61,7 +61,7 @@ ai-agent-week1/
 ├── .env                   # API keys (not committed)
 ├── requirements.txt
 └── README.md
-
+```
 Tech Stack
 	•	Python 3.12
 	•	OpenAI API (LLMs + embeddings)
