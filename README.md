@@ -27,7 +27,7 @@ Given a research goal, the agent:
 ```
 
 Architecture Overview
-
+```
 Goal
   ↓
 Planner (JSON, tool-aware)
@@ -43,6 +43,7 @@ Retry Loop (if needed)
 Final Research Report
   ↓
 FastAPI Endpoint
+```
 
 Project Structure
 ```
