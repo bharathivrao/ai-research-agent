@@ -9,21 +9,22 @@ This project demonstrates how to build reliable AI agents, not just chatbots.
 🚀 What This Project Does
 
 Given a research goal, the agent:
+```
 	1.	Plans the task into structured steps
 	2.	Chooses the right tool per step
-	•	rag → retrieve knowledge from documents
-	•	code → perform calculations / analysis
+		•	rag → retrieve knowledge from documents
+		•	code → perform calculations / analysis
 	3.	Executes each step
-	•	Uses embeddings + vector search for RAG
-	•	Uses a safe Python execution tool for calculations
+		•	Uses embeddings + vector search for RAG
+		•	Uses a safe Python execution tool for calculations
 	4.	Verifies outputs
-	•	Checks grounding against sources
-	•	Flags hallucination risk
+		•	Checks grounding against sources
+		•	Flags hallucination risk
 	5.	Retries automatically when confidence is low
 	6.	Synthesizes a structured research report
 	7.	Logs metrics (tokens, time, retries)
 	8.	Exposes everything via an API
-
+```
 
 Architecture Overview
 
@@ -124,51 +125,56 @@ Example Request:
   "goal": "Research AI Engineer skills and compute average salary",
   "max_retries_per_step": 1
 }
-
+```
 Example Response
 	•	Structured plan
 	•	Step-by-step execution (with tool used)
 	•	Evaluations & retries
 	•	Final research report
 	•	Token & timing metrics
-
+```
 ⸻
-
+```
 📊 Metrics Collected
 	•	Tokens per step (input / output / total)
 	•	Execution time per step
 	•	Total pipeline time
 	•	Retry counts
 	•	Tool usage per step
-
+```
 This makes the agent observable, debuggable, and cost-aware.
 
 🧪 Tooling
 
 🔍 RAG Tool
+```
 	•	OpenAI embeddings (text-embedding-3-small)
 	•	Chroma vector search
 	•	Source attribution
+```
 
 🧮 Code Tool
+```
 	•	LLM-generated Python expressions
 	•	Safe evaluation (restricted environment)
 	•	Used only for numeric/logical steps
-
+```
 ✅ Why This Project Matters
 
 This project demonstrates real AI engineering, including:
+```
 	•	Agentic workflows
 	•	Tool orchestration
 	•	Reliability & verification
 	•	Self-correction loops
 	•	Production-ready APIs
 	•	Observability & metrics
-
+```
 
 ⸻
 
 🛣️ Possible Extensions
+```
 	•	Web search tool
 	•	SQL / data warehouse tool
 	•	Long-term memory
@@ -176,3 +182,4 @@ This project demonstrates real AI engineering, including:
 	•	Streaming responses
 	•	Cost budgeting
 	•	Auth & rate limiting
+```
